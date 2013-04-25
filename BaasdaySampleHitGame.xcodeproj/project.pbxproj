@@ -16,6 +16,13 @@
 		CA6910371728B31600BAE086 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6910361728B31600BAE086 /* Default.png */; };
 		CA6910391728B31600BAE086 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6910381728B31600BAE086 /* Default@2x.png */; };
 		CA69103B1728B31600BAE086 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA69103A1728B31600BAE086 /* Default-568h@2x.png */; };
+		CA6910441728B3EB00BAE086 /* BSHGTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6910421728B3EB00BAE086 /* BSHGTitleViewController.m */; };
+		CA6910451728B3EB00BAE086 /* BSHGTitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6910431728B3EB00BAE086 /* BSHGTitleViewController.xib */; };
+		CA6910491728BCFB00BAE086 /* BSHGGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6910471728BCFB00BAE086 /* BSHGGameViewController.m */; };
+		CA69104A1728BCFB00BAE086 /* BSHGGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6910481728BCFB00BAE086 /* BSHGGameViewController.xib */; };
+		CA69104E1728C80A00BAE086 /* BSHGResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA69104C1728C80A00BAE086 /* BSHGResultViewController.m */; };
+		CA69104F1728C80A00BAE086 /* BSHGResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA69104D1728C80A00BAE086 /* BSHGResultViewController.xib */; };
+		CA691056172A168900BAE086 /* baasday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA691055172A168900BAE086 /* baasday.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,16 @@
 		CA6910361728B31600BAE086 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CA6910381728B31600BAE086 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CA69103A1728B31600BAE086 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA6910411728B3EB00BAE086 /* BSHGTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHGTitleViewController.h; sourceTree = "<group>"; };
+		CA6910421728B3EB00BAE086 /* BSHGTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHGTitleViewController.m; sourceTree = "<group>"; };
+		CA6910431728B3EB00BAE086 /* BSHGTitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSHGTitleViewController.xib; sourceTree = "<group>"; };
+		CA6910461728BCFB00BAE086 /* BSHGGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHGGameViewController.h; sourceTree = "<group>"; };
+		CA6910471728BCFB00BAE086 /* BSHGGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHGGameViewController.m; sourceTree = "<group>"; };
+		CA6910481728BCFB00BAE086 /* BSHGGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSHGGameViewController.xib; sourceTree = "<group>"; };
+		CA69104B1728C80A00BAE086 /* BSHGResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHGResultViewController.h; sourceTree = "<group>"; };
+		CA69104C1728C80A00BAE086 /* BSHGResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHGResultViewController.m; sourceTree = "<group>"; };
+		CA69104D1728C80A00BAE086 /* BSHGResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSHGResultViewController.xib; sourceTree = "<group>"; };
+		CA691055172A168900BAE086 /* baasday.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = baasday.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +59,7 @@
 				CA6910251728B31500BAE086 /* UIKit.framework in Frameworks */,
 				CA6910271728B31500BAE086 /* Foundation.framework in Frameworks */,
 				CA6910291728B31500BAE086 /* CoreGraphics.framework in Frameworks */,
+				CA691056172A168900BAE086 /* baasday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +72,7 @@
 				CA69102A1728B31600BAE086 /* BaasdaySampleHitGame */,
 				CA6910231728B31500BAE086 /* Frameworks */,
 				CA6910221728B31500BAE086 /* Products */,
+				CA691055172A168900BAE086 /* baasday.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +100,15 @@
 				CA6910331728B31600BAE086 /* BSHGAppDelegate.h */,
 				CA6910341728B31600BAE086 /* BSHGAppDelegate.m */,
 				CA69102B1728B31600BAE086 /* Supporting Files */,
+				CA6910411728B3EB00BAE086 /* BSHGTitleViewController.h */,
+				CA6910421728B3EB00BAE086 /* BSHGTitleViewController.m */,
+				CA6910431728B3EB00BAE086 /* BSHGTitleViewController.xib */,
+				CA6910461728BCFB00BAE086 /* BSHGGameViewController.h */,
+				CA6910471728BCFB00BAE086 /* BSHGGameViewController.m */,
+				CA6910481728BCFB00BAE086 /* BSHGGameViewController.xib */,
+				CA69104B1728C80A00BAE086 /* BSHGResultViewController.h */,
+				CA69104C1728C80A00BAE086 /* BSHGResultViewController.m */,
+				CA69104D1728C80A00BAE086 /* BSHGResultViewController.xib */,
 			);
 			path = BaasdaySampleHitGame;
 			sourceTree = "<group>";
@@ -155,6 +183,9 @@
 				CA6910371728B31600BAE086 /* Default.png in Resources */,
 				CA6910391728B31600BAE086 /* Default@2x.png in Resources */,
 				CA69103B1728B31600BAE086 /* Default-568h@2x.png in Resources */,
+				CA6910451728B3EB00BAE086 /* BSHGTitleViewController.xib in Resources */,
+				CA69104A1728BCFB00BAE086 /* BSHGGameViewController.xib in Resources */,
+				CA69104F1728C80A00BAE086 /* BSHGResultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +198,9 @@
 			files = (
 				CA6910311728B31600BAE086 /* main.m in Sources */,
 				CA6910351728B31600BAE086 /* BSHGAppDelegate.m in Sources */,
+				CA6910441728B3EB00BAE086 /* BSHGTitleViewController.m in Sources */,
+				CA6910491728BCFB00BAE086 /* BSHGGameViewController.m in Sources */,
+				CA69104E1728C80A00BAE086 /* BSHGResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +277,10 @@
 		CA69103F1728B31600BAE086 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BaasdaySampleHitGame/BaasdaySampleHitGame-Prefix.pch";
 				INFOPLIST_FILE = "BaasdaySampleHitGame/BaasdaySampleHitGame-Info.plist";
@@ -254,6 +292,10 @@
 		CA6910401728B31600BAE086 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BaasdaySampleHitGame/BaasdaySampleHitGame-Prefix.pch";
 				INFOPLIST_FILE = "BaasdaySampleHitGame/BaasdaySampleHitGame-Info.plist";
@@ -281,6 +323,7 @@
 				CA6910401728B31600BAE086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
