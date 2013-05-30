@@ -39,7 +39,10 @@
     [super viewDidLoad];
 	BDLeaderboardEntry *entry = [BDLeaderboardEntry createWithLeaderboardName:@"normalMode" score:score_ error:nil];
 	self.scoreLabel.text = [NSString stringWithFormat:@"%d hits! RANK:%d", entry.score, entry.rank];
-	leaderboardEntries_ = [BDLeaderboardEntry fetchAllWithLeaderboardName:@"normalMode" skip:0 limit:100 error:nil];
+	BDQuery *query = [[BDQuery alloc] init];
+	query.skip = 0;
+	query.limit = 100;
+	leaderboardEntries_ = [BDLeaderboardEntry fetchAllWithLeaderboardName:@"normalMode" query:query error:nil];
     // Do any additional setup after loading the view from its nib.
 }
 

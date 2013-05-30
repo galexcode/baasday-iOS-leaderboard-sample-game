@@ -14,6 +14,7 @@
 @property (readonly) NSInteger count;
 
 - (id)initWithObjects:(NSArray *)objects count:(NSInteger)count;
-- (id)initWithAPIResult:(NSDictionary *)apiResult;
 
 @end
+
+typedef void (^BDListResultBlock)(BDListResult *result, NSError *error);
